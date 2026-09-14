@@ -592,14 +592,14 @@ strong {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  align-items: start;
   gap: 14px;
 }
 
 .gallery-grid img {
+  display: block;
   width: 100%;
-  height: 220px;
-  object-fit: contain;
-  background: var(--surface-2);
+  height: auto;
   border-radius: 12px;
   border: 1px solid var(--border);
   box-shadow: var(--card-shadow);
