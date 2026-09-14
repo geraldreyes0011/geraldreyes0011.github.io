@@ -490,16 +490,13 @@ strong {
   font-style: italic;
 }
 
-.work-toggle {
-  margin: 0 0 24px;
-}
-
 .work-cta-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
   width: 100%;
+  margin: 0 0 24px;
   padding: 20px 28px;
   border-radius: 16px;
   background: linear-gradient(135deg, #4aa0e0, #2166a3);
@@ -510,14 +507,10 @@ strong {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   cursor: pointer;
-  list-style: none;
+  text-decoration: none;
   user-select: none;
   animation: cta-pulse 1.6s ease-in-out infinite, cta-bounce 2.4s ease-in-out infinite;
   transition: transform 0.15s ease;
-}
-
-.work-cta-btn::-webkit-details-marker {
-  display: none;
 }
 
 .work-cta-btn:hover {
@@ -536,18 +529,7 @@ strong {
   width: 20px;
   height: 20px;
   stroke-width: 2.6;
-  transition: transform 0.25s ease;
   animation: chevron-nudge 1.4s ease-in-out infinite;
-}
-
-.work-toggle[open] .work-cta-btn {
-  animation: none;
-  background: linear-gradient(135deg, #2166a3, #184b78);
-}
-
-.work-toggle[open] .work-cta-btn .work-cta-chevron {
-  transform: rotate(180deg);
-  animation: none;
 }
 
 @keyframes cta-pulse {
@@ -578,6 +560,10 @@ strong {
   50% {
     transform: translateY(3px);
   }
+}
+
+.gallery-section {
+  scroll-margin-top: 24px;
 }
 
 .full-gallery {
