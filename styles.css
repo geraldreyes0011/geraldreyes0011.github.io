@@ -679,6 +679,23 @@ strong {
   font-weight: 500;
 }
 
+.video-showcase {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.showcase-video {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+  background: #000;
+}
+
 @media (max-width: 560px) {
   .work-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
