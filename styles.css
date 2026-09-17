@@ -647,15 +647,14 @@ strong {
 
 .showcase-row {
   display: flex;
-  gap: 16px;
+  gap: 26px;
   align-items: stretch;
-  justify-content: center;
 }
 
 .showcase-video {
   display: block;
   flex: 0 0 auto;
-  width: 200px;
+  width: 240px;
   border-radius: 14px;
   border: 1px solid var(--border);
   box-shadow: var(--card-shadow);
@@ -666,8 +665,8 @@ strong {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 8px;
-  width: 230px;
+  gap: 12px;
+  width: 300px;
   flex: 0 0 auto;
 }
 
@@ -696,10 +695,10 @@ strong {
 }
 
 .work-item figcaption {
-  margin-top: 3px;
+  margin-top: 5px;
   text-align: center;
   color: var(--muted);
-  font-size: 0.6rem;
+  font-size: 0.72rem;
   font-weight: 500;
   line-height: 1.2;
 }
